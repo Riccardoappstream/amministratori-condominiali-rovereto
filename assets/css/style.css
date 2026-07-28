@@ -243,5 +243,35 @@ img{max-width:100%;height:auto}
   .brand-logo {
     flex-shrink: 0;
   }
+  @media (max-width:860px){
+
+.navrow{
+    height:auto;
+    min-height:100px;
+    padding:12px 0;
+    align-items:center;
+}
+
+.brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.brand span{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.brand small{
+    display:block;
+    margin-top:4px;
+    font-size:14px;
+    line-height:1.2;
+    color:#75869f;
+}
+
+}
 
 }
