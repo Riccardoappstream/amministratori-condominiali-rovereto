@@ -150,7 +150,44 @@
   .whatsapp { right:14px; bottom:14px; width:56px; height:56px; }
   .whatsapp:before { width:31px; height:31px; }
 }
+/* ===== Correzione logo/titolo mobile ===== */
 
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.brand span{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    line-height:1.15;
+}
+
+.brand span small{
+    display:block;
+    position:static !important;
+    margin-top:6px;
+    font-size:15px;
+    line-height:1.25;
+    color:#7d8896;
+    font-weight:600;
+}
+
+.brand-logo{
+    width:58px;
+    height:58px;
+    flex-shrink:0;
+}
+
+.navbar{
+    min-height:110px;
+}
+
+.navrow{
+    align-items:center;
+}
 @media (max-width:390px) {
   .wrap { padding-left:14px; padding-right:14px; }
   .brand-logo { width:42px; height:42px; flex-basis:42px; }
