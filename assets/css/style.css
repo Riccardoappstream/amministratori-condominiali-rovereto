@@ -250,6 +250,39 @@ img{max-width:100%;height:auto}
     min-height:100px;
     padding:12px 0;
     align-items:center;
+/* Correzione logo mobile */
+
+.navrow{
+    height:auto !important;
+    min-height:100px;
+    padding:12px 0;
+}
+
+.brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.brand span{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.brand small{
+    position:static !important;
+    display:block;
+    margin-top:4px;
+    font-size:14px;
+    line-height:1.25;
+    color:#75869f;
+}
+
+.brand-logo{
+    width:58px;
+    height:58px;
+}
 }
 
 .brand{
