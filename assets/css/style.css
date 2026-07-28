@@ -162,3 +162,20 @@
 }
 
 .feature-img:hover { transform:scale(1.02); }
+
+
+/* Mobile refinement */
+@media (max-width:768px){
+.navrow{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px!important}
+.brand{display:flex;align-items:center;gap:10px;max-width:75%}
+.brand img,.brand-logo{width:44px!important;height:44px!important}
+.brand span,.brand-text{font-size:1rem!important;line-height:1.2!important}
+.hero,.hero .wrap{padding:56px 18px!important}
+.hero h1{font-size:2rem!important;line-height:1.15!important}
+.hero p{font-size:1rem!important}
+.btn,.buttons a{display:block!important;width:100%;text-align:center;margin:10px 0!important}
+section{padding:48px 18px!important}
+.cards,.grid{grid-template-columns:1fr!important}
+footer .wrap{padding:28px 18px!important;text-align:center}
+img{max-width:100%;height:auto}
+}
